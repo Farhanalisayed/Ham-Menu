@@ -1,0 +1,22 @@
+/* Write your CSS here */
+.the-cont{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.icon {
+  height: 25px;
+  width: 25px;
+}
+.ham-icon {
+  height: 15px;
+  width: 15px;
+}
+.route-icon {
+  height: 25px;
+  width: 25px;
+  margin: 5px;
+}
+Link {
+  text-decoration: none;
+}

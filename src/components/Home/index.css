@@ -1,0 +1,29 @@
+/* Write your CSS here */
+.home-cont {
+  margin-top: 20px;
+  border-radius: 7px;
+  box-shadow: 5px 4px 4px 5px #dcdcdc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+.the-cont {
+  display: flex;
+  flex-direction: column;
+}
+.options {
+  width: 40%;
+}
+.image {
+  height:150px;
+  width: 160px;
+}
+h1 {
+  color: #616e7c;
+  font-size: 25px;
+}
+Link {
+  text-decoration: none;
+}
