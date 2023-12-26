@@ -1,1 +1,38 @@
 /* Write your CSS here */
+.cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  height: 50px;
+  width: 40px;
+}
+h1 {
+  font-size: 25px;
+  color: #616e7c;
+}
+p {
+  font-size: 15px;
+  color: #dcdcdc;
+}
+.home-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+.the-cont {
+  display: flex;
+  flex-direction: column;
+}
+.options {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  border: 0px;
+}
