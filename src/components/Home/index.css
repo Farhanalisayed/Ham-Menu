@@ -1,23 +1,50 @@
 /* Write your CSS here */
-.home-cont {
-  margin-top: 20px;
-  border-radius: 7px;
-  box-shadow: 5px 4px 4px 5px #dcdcdc;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 40%;
+@media (max-width: 767px) {
+  .home-cont-md {
+    display: none;
+  }
+  .home-cont-sm {
+    margin-top: 20px;
+    border-radius: 7px;
+    box-shadow: 5px 4px 4px 5px #dcdcdc;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+  }
+}
+@media (min-width: 767px) {
+  .home-cont-md {
+    margin-top: 20px;
+    border-radius: 7px;
+    box-shadow: 5px 4px 4px 5px #dcdcdc;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+  }
+  .home-cont-sm {
+    display: none;
+  }
 }
 .the-cont {
   display: flex;
   flex-direction: column;
 }
 .options {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 40%;
+  border: 0px;
 }
 .image {
-  height:150px;
+  height: 150px;
   width: 160px;
 }
 h1 {
