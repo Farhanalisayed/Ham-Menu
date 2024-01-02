@@ -1,5 +1,4 @@
-/* Write your CSS here */
-.the-cont{
+.the-cont {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -18,5 +17,24 @@
   margin: 5px;
 }
 Link {
+  text-decoration: none;
+}
+button {
+  background-color: transparent;
+  border: 0px solid transparent;
+}
+p {
+  margin: 5px;
+  font-size: 15px;
+}
+.popup-content {
+  display: flex;
+  flex-direction: column;
+}
+.closeBut {
+  align-self: flex-end;
+}
+li {
+  display: flex;
   text-decoration: none;
 }
